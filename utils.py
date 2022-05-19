@@ -1,6 +1,6 @@
 from PIL import Image
 
-def keep_image_size_open(path,size=(256,256)):
+def keep_image_size_open(path,size=(512,512)):
     print(path)
     img=Image.open(path)
     temp=max(img.size)
